@@ -1,0 +1,54 @@
+CHECKPOINT 2 — PLACAR DE JOGO
+=============================
+
+OBJETIVO
+--------
+Desenvolver um placar interativo que permita aumentar e diminuir a pontuação, utilizando variáveis, funções, operadores e condicionais em JavaScript.
+
+PROPOSTA
+--------
+Imagine que uma turma está organizando uma competição e precisa de um placar simples para acompanhar a pontuação de uma equipe.
+
+O placar deverá começar em zero e ser atualizado conforme o usuário clicar nos botões.
+
+REQUISITOS FUNCIONAIS
+--------------------
+- Exibir a pontuação inicial igual a zero.
+- Criar um botão para adicionar um ponto.
+- Criar um botão para retirar um ponto.
+- Utilizar uma variável para armazenar a pontuação atual.
+- Criar uma função para aumentar a pontuação.
+- Criar uma função para diminuir a pontuação.
+- Atualizar o valor exibido na página após cada clique.
+- Utilizar uma condição if para impedir que a pontuação fique abaixo de zero.
+
+REGRAS DO SISTEMA
+-----------------
+- Ao clicar em “Adicionar ponto”, a pontuação deverá aumentar em uma unidade.
+- Ao clicar em “Retirar ponto”, a pontuação deverá diminuir em uma unidade.
+- Caso a pontuação esteja em zero, o sistema não deverá permitir sua diminuição.
+- O valor apresentado na página deverá corresponder à pontuação armazenada na variável.
+
+EXEMPLO DE FUNCIONAMENTO
+------------------------
+- Pontuação inicial: 0
+- Após três cliques em “Adicionar ponto”: 3
+- Após um clique em “Retirar ponto”: 2
+- Se a pontuação estiver em zero e o usuário clicar em “Retirar ponto”, ela deverá permanecer em zero.
+
+CONTEÚDOS AVALIADOS
+-------------------
+- Variáveis com let.
+- Funções.
+- Incremento ++ e decremento --.
+- Condicional if.
+- Operador de comparação ===.
+- document.getElementById().
+- innerText.
+- Evento onclick.
+
+ENTREGA
+-------
+Uma página HTML funcional com a pontuação e os botões de interação.
+
+Será avaliada a compreensão de como uma variável mantém seu valor entre cliques e como uma condição pode controlar o comportamento de uma função.

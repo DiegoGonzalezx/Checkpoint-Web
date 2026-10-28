@@ -1,0 +1,46 @@
+CHECKPOINT 1 — CALCULADORA DE COMPRAS
+====================================
+
+OBJETIVO
+--------
+Desenvolver uma página simples que calcule o valor total de uma compra utilizando HTML e JavaScript.
+
+O objetivo é avaliar se compreendeu como receber valores digitados pelo usuário, armazená-los em variáveis, realizar operações matemáticas e apresentar o resultado na página.
+
+PROPOSTA
+--------
+Imagine que uma loja precisa de uma ferramenta simples para calcular o valor de uma compra. O usuário deverá informar o preço unitário de um produto e a quantidade desejada. Ao clicar no botão de calcular, o sistema deverá apresentar o valor total.
+
+REQUISITOS FUNCIONAIS
+--------------------
+- Criar um campo para informar o preço unitário do produto.
+- Criar um campo para informar a quantidade desejada.
+- Criar um botão para calcular o total da compra.
+- Utilizar JavaScript para obter os valores digitados.
+- Converter os valores para números utilizando Number().
+- Utilizar variáveis para armazenar os valores e o resultado.
+- Calcular o total utilizando o operador de multiplicação *.
+- Exibir o resultado na página utilizando innerText.
+
+EXEMPLO DE FUNCIONAMENTO
+------------------------
+- Preço unitário: R$ 15,00
+- Quantidade: 3
+- Resultado esperado: Total da compra: R$ 45,00
+
+CONTEÚDOS AVALIADOS
+-------------------
+- Variáveis com let.
+- Funções.
+- document.getElementById().
+- .value.
+- Number().
+- Operador matemático *.
+- innerText.
+- Evento onclick.
+
+ENTREGA
+-------
+Uma página HTML funcional, com campos de entrada, botão de cálculo e apresentação do resultado.
+
+O CSS poderá ser utilizado para organizar a interface, mas a avaliação priorizará a lógica JavaScript.

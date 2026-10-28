@@ -1,0 +1,49 @@
+CHECKPOINT 3 — VITRINE INTERATIVA DE PRODUTOS
+=============================================
+
+OBJETIVO
+--------
+Desenvolver uma página que permita alternar entre dois produtos, modificando a imagem exibida por meio de JavaScript.
+
+PROPOSTA
+--------
+Imagine que uma pequena loja virtual deseja apresentar dois produtos em uma mesma área da página. Para isso, será utilizado um botão que alterna entre as imagens dos produtos.
+
+Ao clicar no botão, o sistema deverá identificar qual imagem está sendo exibida e substituí-la pela outra.
+
+REQUISITOS FUNCIONAIS
+--------------------
+- Criar uma página com um título, uma imagem e um botão.
+- Exibir inicialmente a imagem do primeiro produto.
+- Criar uma função chamada trocarProduto().
+- Utilizar document.getElementById() para localizar a imagem.
+- Utilizar getAttribute("src") para identificar a imagem atual.
+- Utilizar if/else para decidir qual imagem deverá ser exibida.
+- Utilizar setAttribute("src", ...) para alterar a imagem.
+- Atualizar o atributo alt de acordo com o produto exibido.
+- Garantir que novos cliques continuem alternando entre os dois produtos.
+
+EXEMPLO DE FUNCIONAMENTO
+------------------------
+- Estado inicial: imagem do Produto A.
+- Após um clique: imagem do Produto B.
+- Após outro clique: imagem do Produto A novamente.
+- O processo deverá continuar funcionando a cada clique.
+
+CONTEÚDOS AVALIADOS
+-------------------
+- Variáveis com const.
+- Funções.
+- document.getElementById().
+- getAttribute().
+- setAttribute().
+- Condicionais if/else.
+- Operador de comparação ===.
+- Evento onclick.
+- Manipulação do DOM.
+
+ENTREGA
+-------
+Uma página HTML funcional, acompanhada das duas imagens utilizadas no projeto.
+
+OSerá avaliada a compreensão de como o JavaScript consulta o estado atual de um elemento, toma uma decisão e modifica seus atributos.
