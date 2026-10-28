@@ -1,9 +1,11 @@
-const calcPrice = () => {
-  const inputPrice = Number(document.querySelector('#priceProductInput').value)
+const somaPoint = () => {
+  let resultado = document.querySelector('#resultPoint')
 
-  const inputQtd = Number(document.querySelector('#qntProductInput').value)
+  resultado.textContent = Number(resultado.textContent) + 1
+}
 
-  const result = document.querySelector('#result')
+const subtracaoPoint = () => {
+  let resultado = document.querySelector('#resultPoint')
 
-  result.innerText = inputPrice * inputQtd
+  resultado.textContent = Number(resultado.textContent) - 1
 }

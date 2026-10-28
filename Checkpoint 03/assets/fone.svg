@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" role="img" aria-labelledby="title">
+<title id="title">Fone de ouvido sem fio azul</title>
+<defs>
+  <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".18"/></filter>
+</defs>
+<rect width="400" height="320" rx="22" fill="#eff6ff"/>
+<circle cx="200" cy="150" r="105" fill="#dbeafe"/>
+<g filter="url(#shadow)" stroke="#1e40af" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M119 169 V133 C119 86 155 50 200 50 C245 50 281 86 281 133 V169" fill="none" stroke="#1e3a8a" stroke-width="20"/>
+  <rect x="102" y="145" width="52" height="93" rx="24" fill="url(#blue)"/>
+  <rect x="246" y="145" width="52" height="93" rx="24" fill="url(#blue)"/>
+  <rect x="115" y="159" width="25" height="57" rx="12" fill="#93c5fd" stroke="none"/>
+  <rect x="260" y="159" width="25" height="57" rx="12" fill="#93c5fd" stroke="none"/>
+</g>
+<text x="200" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1e40af">AUDIO • WIRELESS</text>
+</svg>
